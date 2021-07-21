@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.0 
+Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2021.07.08 às 08:58:56 AM BRT 
+
+  -->
+      
+    <bindings xmlns:tns="http://vo.seg.certegy.com.br" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.ravelino.login.client"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:LoginPciRequest">
+                  
+            <class ref="br.com.ravelino.login.client.LoginPciRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SaidaUsuarioWSVO">
+                  
+            <class ref="br.com.ravelino.login.client.SaidaUsuarioWSVO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SegurancaVO">
+                  
+            <class ref="br.com.ravelino.login.client.SegurancaVO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RetornoSegurancaWSVO">
+                  
+            <class ref="br.com.ravelino.login.client.RetornoSegurancaWSVO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RetornoWSVO">
+                  
+            <class ref="br.com.ravelino.login.client.RetornoWSVO"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://schemas.xmlsoap.org/soap/encoding/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.ravelino.login.client"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:Array">
+                  
+            <class ref="br.com.ravelino.login.client.Array"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Struct">
+                  
+            <class ref="br.com.ravelino.login.client.Struct"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:duration">
+                  
+            <class ref="br.com.ravelino.login.client.Duration"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:dateTime">
+                  
+            <class ref="br.com.ravelino.login.client.DateTime"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:NOTATION">
+                  
+            <class ref="br.com.ravelino.login.client.NOTATION"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:time">
+                  
+            <class ref="br.com.ravelino.login.client.Time"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:date">
+                  
+            <class ref="br.com.ravelino.login.client.Date"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:gYearMonth">
+                  
+            <class ref="br.com.ravelino.login.client.GYearMonth"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:gYear">
+                  
+            <class ref="br.com.ravelino.login.client.GYear"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:gMonthDay">
+                  
+            <class ref="br.com.ravelino.login.client.GMonthDay"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:gDay">
+                  
+            <class ref="br.com.ravelino.login.client.GDay"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:gMonth">
+                  
+            <class ref="br.com.ravelino.login.client.GMonth"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:boolean">
+                  
+            <class ref="br.com.ravelino.login.client.Boolean"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:base64Binary">
+                  
+            <class ref="br.com.ravelino.login.client.Base64Binary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:hexBinary">
+                  
+            <class ref="br.com.ravelino.login.client.HexBinary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:float">
+                  
+            <class ref="br.com.ravelino.login.client.Float"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:double">
+                  
+            <class ref="br.com.ravelino.login.client.Double"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:anyURI">
+                  
+            <class ref="br.com.ravelino.login.client.AnyURI"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:QName">
+                  
+            <class ref="br.com.ravelino.login.client.QName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:string">
+                  
+            <class ref="br.com.ravelino.login.client.String"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:normalizedString">
+                  
+            <class ref="br.com.ravelino.login.client.NormalizedString"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:token">
+                  
+            <class ref="br.com.ravelino.login.client.Token"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:language">
+                  
+            <class ref="br.com.ravelino.login.client.Language"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Name">
+                  
+            <class ref="br.com.ravelino.login.client.Name"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:NMTOKEN">
+                  
+            <class ref="br.com.ravelino.login.client.NMTOKEN"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:NCName">
+                  
+            <class ref="br.com.ravelino.login.client.NCName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:NMTOKENS">
+                  
+            <class ref="br.com.ravelino.login.client.NMTOKENS"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ID">
+                  
+            <class ref="br.com.ravelino.login.client.ID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IDREF">
+                  
+            <class ref="br.com.ravelino.login.client.IDREF"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ENTITY">
+                  
+            <class ref="br.com.ravelino.login.client.ENTITY"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IDREFS">
+                  
+            <class ref="br.com.ravelino.login.client.IDREFS"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ENTITIES">
+                  
+            <class ref="br.com.ravelino.login.client.ENTITIES"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:decimal">
+                  
+            <class ref="br.com.ravelino.login.client.Decimal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:integer">
+                  
+            <class ref="br.com.ravelino.login.client.Integer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:nonPositiveInteger">
+                  
+            <class ref="br.com.ravelino.login.client.NonPositiveInteger"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:negativeInteger">
+                  
+            <class ref="br.com.ravelino.login.client.NegativeInteger"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:long">
+                  
+            <class ref="br.com.ravelino.login.client.Long"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:int">
+                  
+            <class ref="br.com.ravelino.login.client.Int"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:short">
+                  
+            <class ref="br.com.ravelino.login.client.Short"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:byte">
+                  
+            <class ref="br.com.ravelino.login.client.Byte"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:nonNegativeInteger">
+                  
+            <class ref="br.com.ravelino.login.client.NonNegativeInteger"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:unsignedLong">
+                  
+            <class ref="br.com.ravelino.login.client.UnsignedLong"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:unsignedInt">
+                  
+            <class ref="br.com.ravelino.login.client.UnsignedInt"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:unsignedShort">
+                  
+            <class ref="br.com.ravelino.login.client.UnsignedShort"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:unsignedByte">
+                  
+            <class ref="br.com.ravelino.login.client.UnsignedByte"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:positiveInteger">
+                  
+            <class ref="br.com.ravelino.login.client.PositiveInteger"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://xml.apache.org/xml-soap" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.ravelino.login.client"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:mapItem">
+                  
+            <class ref="br.com.ravelino.login.client.MapItem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Map">
+                  
+            <class ref="br.com.ravelino.login.client.Map"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
